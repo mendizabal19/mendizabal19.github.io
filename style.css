@@ -1,75 +1,207 @@
-body {
-    font-family: sans-serif;
-    background: white;
-    font-size: 12px;
-}
-
 .wrapper {
-    width: 960px;
+    width: 1100px;
     margin: 0 auto;
-    overflow: auto;
+   
 }
 
-.menu {
-    width: 300px;
-    float: left;
-}
+/*new*/
 
-.menu>ul {
-    padding: 0;
-}
-
-.menu>ul>li {
-    list-style-type: none;
-}
-
-.menu>ul>li>a {
-    display: block;
-    border: 1px solid #000;
-    padding: 20px;
-    margin: 3px;
+.box>h1{
+    font-family: neou;
+    font-size: 25px;
     text-align: center;
-    color: #000;
-    font-size: 14px;
 }
-
-.catface {
-    background: transparent url("cat.png") no-repeat center;
-    height: 250px;
-}
-
-.content {
-    padding: 20px;
-    margin-left: 300px;
-}
-
-
-
 
 .photo{
-    background: transparent url("7.jpg") no-repeat center;
-    height: 250px;
+    background: transparent url("foto perfil.jpg") no-repeat center;
+    height: 215px;
     width: 250px;
+    background-size:cover;
 }
 
 .leftpart{
-    width: 300px;
+    width: 250px;
+    height: 500px;
     float: left;
+    font-family: roboto;
+    font-size: 15px;
 }
 
+.box>{
+    font-size: 12px;
+    text-align: center;
+}
 .box>ul>li>a{
     display: block;
-    border: 1px solid #000;
-    padding: 20px;
-    margin: 3px;
+    border: 2px solid #000;
+    padding-top: 20px;
     text-align: center;
     color: #000;
-    font-size: 14px;
-}
-
-.rightpart>industrialdesign{
-    padding: 20px;
-    margin-left: 300px;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 10px;
     
 }
-.group
+
+.industrial{
+    background-image: url(comunicationF.jpg);
+    background-size: contain;
+    width: 820px;
+    height:215px;
+    margin-left: 280px;
+    margin-bottom: 10px;
+    text-align:center;
+    line-height: 200px;
+    font-size: 45px;
+    font-family: generica;
+}
+.industrial>a{
+    color: white;
+
+}
+
+.comunication{
+    background-image: url(industrialF.jpg);
+    background-size: contain;
+    width: 820px;
+    height:215px;
+    margin-left: 280px;
+    margin-bottom: 10px;
+    text-align:center;
+    line-height: 200px;
+    font-size: 45px;
+    font-family: generica;
+}
+.comunication>a{
+    color: white;
+
+}
+
+.domestic {
+    background-image: url(domesticF.jpg);
+    background-size: auto;
+    width: 820px;
+    height:215px;
+    margin-left: 280px;
+    margin-bottom: 10px;
+    text-align:center;
+    line-height: 200px;
+    font-size: 45px;
+    font-family: generica;
+}
+
+.domestic>a{
+    color: white;
+
+}
+
+/*curriculum*/
+
+.centradoC {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+.leftpart2{
+    float: left;   
+}
+
+.rightpart2{
+    float:right;
+}
+
+.skills{
+    width: 520px;
+    font-family: roboto;
+    font-size: 17px;
+    padding-top: 102px;
+}
+    
+.academicformation{
+    width: 520px;
+    font-family: roboto;
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+.workexperience{
+    width: 520px;
+    font-family: roboto;
+    font-size: 17px;
+    padding-top: 60px;
+}
+    
+.idioms{
+    width: 520px;
+    font-family: roboto;
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+/*industrial*/
+
+.centrado{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.photosI{
+    float: left;
+
+}
+
+/* industrial*/
+
+.textI{
+    font-family: roboto;
+    font-size: 17px;
+}
+
+.cuadroI{
+    border: 1px solid #464646;
+    padding: 20px;
+    background-image: url(fondogris2.jpg);
+    margin: 20px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: neou;
+    font-size: 35px;
+    
+}
+
+/*comunication*/
+
+.textC{
+    font-family: roboto;
+    font-size: 17px;
+    
+}
+
+.cuadroC{
+    border: 1px solid #464646;
+    padding: 20px;
+    background-image: url(fondogris2.jpg);
+    background-size: contain;
+    margin: 20px;
+    text-align: center;
+}
+
+/*domestic*/
+
+.textD{
+    font-family: roboto;
+    font-size: 17px;
+}
+
+.cuadroD{
+    border: 1px solid #464646;
+    padding: 20px;
+    background-image: url(fondogris2.jpg);
+    background-size: auto;
+    margin: 20px;
+    text-align: center;
+}
